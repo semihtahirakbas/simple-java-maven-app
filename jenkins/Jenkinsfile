@@ -24,9 +24,6 @@ spec:
 """
     }
   }
-    options {
-        skipStagesAfterUnstable()
-    }
     stages {
         stage('Build') {
             steps {
